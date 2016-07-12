@@ -13,7 +13,7 @@ public class AppiumDefaultBrowserDemo {
 
 	public static void main(String[] args) throws MalformedURLException {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
+		capabilities.setCapability(CapabilityType.BROWSER_NAME, "Browser");
 		// capabilities.setCapability("androidUseRunningApp", true);
 		capabilities.setCapability("deviceName", "your_device_id");// to get
 																	// device id
@@ -23,7 +23,7 @@ public class AppiumDefaultBrowserDemo {
 		AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 		driver.get("http://www.hdfcbank.com/");
 		String w1 = driver.getWindowHandle();
-		driver.findElement(By.partialLinkText("desktop website")).click();
+		driver.findElement(By.partialLinkText("Desktop Website")).click();
 		for (String w : driver.getWindowHandles()) {
 			if (!w1.equals(w)) {
 				driver.switchTo().window(w);

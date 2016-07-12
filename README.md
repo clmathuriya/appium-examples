@@ -2,9 +2,12 @@
 Get appium examples with Java client.
 #appium setup
 1. Install java 8 as follows:
+```
 	$ sudo add-apt-repository ppa:webupd8team/java
 	$ sudo apt-get update
 	$ sudo apt-get install oracle-java8-installer
+	
+```
 
 2. Download androud sdk from http://developer.android.com/sdk/index.html#Other 
 
