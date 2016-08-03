@@ -18,9 +18,9 @@ Get appium examples with Java client.
 and add to classpath
 5. Download node from https://nodejs.org/dist/v5.9.1/node-v5.9.1-linux-x64.tar.xz
 and add node/bin to your classpath.
-6. Install appium "npm install -g appium"
+6. Install appium ``` npm install -g appium```
 7. Clone repository
-	$git clone <repository url>
+	``` git clone https://github.com/clmathuriya/appium-examples.git ```
 8. Import maven project in eclipse
 
 #development
@@ -33,11 +33,11 @@ and add node/bin to your classpath.
 #Running tests
 
 1. Start appium server using 
-    $ appium --command-timeout 30000  
+    ``` appium --command-timeout 30000   ```
 2. Run project as maven test
-	$mvn test
+	``` mvn test```
 	
 #To run with headless emulator 
 1. start emulator without ui 
- $emulator -avd test -no-skin -no-audio -no-window
+ ``` emulator -avd test -no-window ```
 
