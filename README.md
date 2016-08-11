@@ -9,7 +9,7 @@ Get appium examples with Java client.
 	
 ```
 
-2. Download androud sdk from http://developer.android.com/sdk/index.html#Other 
+2. Download android sdk from http://developer.android.com/sdk/index.html#Other 
 
 
 3. Set ANDROID_HOME to your sdk folder
